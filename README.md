@@ -12,4 +12,4 @@ be indexable by search engines and social networks.
   - Add a "Match All" criteria with the "AND" operator testing if the "extension" is not of the following values: `jpg`, `gif`, `png`, `ico`, `css`, `woff`, `woff2`, `ttf` (add missing extensions depending on the resources on your website)
 - Define the "Behavior"
   - Add a behavior with `api.seo4ajax.com` for the "Server Host Name value", make sure "Cache key hostname" and "Forward host header" are set to `Origin Hostname`
-  - In the "Modify outgoing request path" section, select "Replace the entire path" for the "Action", and set the "replace with" value to `/<token>/{{builtin.AK_ORIGINAL_URL}}` where `<token>` is the token of your website in SEO4Ajax
+  - In the "Modify outgoing request path" section, select "Replace the entire path" for the "Action", and set the "replace with" value to `/<token>{{builtin.AK_ORIGINAL_URL}}` where `<token>` is the token of your website in SEO4Ajax
